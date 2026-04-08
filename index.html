@@ -3,88 +3,214 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>IceLink Skate Services</title>
-  <script src="https://cdn.tailwindcss.com"></script> <style>
+  <meta name="description" content="Professional figure skate sharpening, boot fitting, blade mounting, stretching, and custom insole services." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
     body {
-      background: #f8fafc;
+      background:
+        radial-gradient(circle at top, rgba(240,248,255,0.95), rgba(245,250,255,0.98) 40%, rgba(248,250,252,1) 100%),
+        linear-gradient(180deg, #f8fbff 0%, #eef6ff 100%);
     }
-
+    .glass {
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.7);
+      box-shadow: 0 18px 60px rgba(15, 23, 42, 0.08);
+    }
     .hero-bg {
       background:
-        linear-gradient(135deg, rgba(0,0,0,0.75), rgba(0,0,0,0.5)),
-        url('https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1600&q=80') center/cover;
+        linear-gradient(135deg, rgba(7,18,33,0.78), rgba(20,46,74,0.55)),
+        radial-gradient(circle at top right, rgba(191, 219, 254, 0.32), transparent 28%),
+        url('https://images.unsplash.com/photo-1515703407324-5f753afd8be8?auto=format&fit=crop&w=1800&q=80') center/cover;
     }
-  </style></head><body class="text-gray-900"><!-- HERO --><section class="hero-bg text-white">
-  <div class="max-w-5xl mx-auto px-6 py-28">
-    <h1 class="text-5xl font-semibold leading-tight">
-      Precision skate care for serious figure skaters
-    </h1>
-    <p class="mt-6 text-lg text-gray-200 max-w-xl">
-      Professional sharpening, fitting, and adjustments designed to help you feel secure, balanced, and confident on the ice.
-    </p><a href="https://app.acuityscheduling.com/schedule/72def04b"
-   class="inline-block mt-8 px-6 py-3 bg-white text-black rounded-full text-sm font-medium hover:bg-gray-200">
-  Book Appointment
-</a>
+    .ice-line {
+      background: linear-gradient(90deg, rgba(255,255,255,0), rgba(191,219,254,0.9), rgba(255,255,255,0));
+      height: 1px;
+      width: 100%;
+    }
+    .shine {
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.45), 0 20px 50px rgba(96,165,250,0.12);
+    }
+  </style>
+</head>
+<body class="text-slate-900 antialiased"> <!-- Top Bar --> <div class="w-full border-b border-sky-100/80 bg-white/70 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 text-sm text-slate-600">
+      <div>
+        <div class="text-base font-semibold tracking-[0.18em] text-slate-900 uppercase">IceLink</div>
+        <div class="text-[11px] uppercase tracking-[0.28em] text-slate-500">Figure Skate Services</div>
+      </div>
+      <a href="https://app.acuityscheduling.com/schedule/72def04b" class="rounded-full border border-sky-200 bg-white/80 px-5 py-2 text-sm font-semibold text-slate-800 transition hover:bg-slate-900 hover:text-white">Book Now</a>
+    </div>
+  </div> <!-- Hero --> <section class="hero-bg relative overflow-hidden">
+    <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.00),rgba(255,255,255,0.00))]"></div>
+    <div class="mx-auto max-w-6xl px-6 py-24 md:py-32">
+      <div class="max-w-3xl text-white">
+        <p class="mb-5 inline-flex rounded-full border border-white/20 bg-white/10 px-5 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-sky-100">Elite Figure Skate Care</p>
+        <h1 class="text-4xl font-semibold leading-tight tracking-tight md:text-6xl">Precision service for skaters who notice every edge.</h1>
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-200 md:text-xl">
+          Professional sharpening, fitting, mounting, stretching, and support services designed for figure skaters who want confidence, consistency, and a clean feel on the ice.
+        </p>
+        <div class="mt-9 flex flex-col gap-4 sm:flex-row">
+          <a href="https://app.acuityscheduling.com/schedule/72def04b" class="shine rounded-full bg-white px-7 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-sky-50">Book Appointment</a>
+          <a href="#services" class="rounded-full border border-white/25 bg-white/10 px-7 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/20">View Services</a>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Trust Strip --> <section class="mx-auto -mt-12 max-w-6xl px-6 relative z-10">
+    <div class="glass grid gap-5 rounded-[2rem] px-6 py-7 md:grid-cols-3 md:px-8">
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-sky-700">Precision Focus</p>
+        <p class="mt-2 text-sm leading-7 text-slate-700">Service centered around edge quality, fit, alignment, and how the skates actually feel on the ice.</p>
+      </div>
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-sky-700">For Figure Skaters</p>
+        <p class="mt-2 text-sm leading-7 text-slate-700">Built for competitive and serious skaters who care about control, balance, and consistency.</p>
+      </div>
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-sky-700">Professional Booking</p>
+        <p class="mt-2 text-sm leading-7 text-slate-700">Clear services, clean presentation, and an easy online path to booking the right appointment.</p>
+      </div>
+    </div>
+  </section> <!-- About --> <section class="mx-auto max-w-6xl px-6 py-20 md:py-24">
+    <div class="grid items-center gap-10 md:grid-cols-[1.12fr_0.88fr]">
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-[0.28em] text-sky-700">Why IceLink</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-slate-900 md:text-5xl">Professional skate care that feels elevated from the first click.</h2>
+        <div class="mt-6 max-w-2xl space-y-4 text-base leading-8 text-slate-600">
+          <p>
+            IceLink offers specialized skate services for figure skaters who want their equipment to feel right every time they step on the ice. From sharpening and fitting to mounting and support, every detail is designed around performance and confidence.
+          </p>
+          <p>
+            Instead of sending skaters straight to a plain scheduling page, this layout creates a cleaner, more premium first impression that matches the level of care behind the work.
+          </p>
+        </div>
+      </div>
+      <div class="glass rounded-[2rem] p-8 md:p-9">
+        <div class="space-y-5">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.16em] text-sky-700">What clients need to know quickly</p>
+            <p class="mt-2 text-sm leading-7 text-slate-600">What’s offered, how it works, what it costs, and why they can trust the service.</p>
+          </div>
+          <div class="ice-line"></div>
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.16em] text-sky-700">Best use of this site</p>
+            <p class="mt-2 text-sm leading-7 text-slate-600">A polished website in front of the current booking system, so customers feel confident before they ever click “book.”</p>
+          </div>
+          <div class="ice-line"></div>
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.16em] text-sky-700">Ideal customer flow</p>
+            <p class="mt-2 text-sm leading-7 text-slate-600">Understand the service → choose the right appointment → book in seconds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Services --> <section id="services" class="border-y border-sky-100/80 bg-white/55">
+    <div class="mx-auto max-w-6xl px-6 py-20 md:py-24">
+      <div class="mx-auto max-w-2xl text-center">
+        <p class="text-xs font-semibold uppercase tracking-[0.28em] text-sky-700">Services</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-slate-900 md:text-5xl">Clean, clear service presentation.</h2>
+        <p class="mt-5 text-base leading-8 text-slate-600">An easier way for new customers to understand what’s offered and choose the right appointment without digging through a plain booking list.</p>
+      </div><div class="mt-12 grid gap-6 md:grid-cols-2">
+    <div class="glass rounded-[1.8rem] p-7 shine">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-semibold text-slate-900">Sharpening</h3>
+          <p class="mt-1 text-sm text-slate-500">30 minutes</p>
+        </div>
+        <span class="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white">$30</span>
+      </div>
+      <p class="mt-5 text-sm leading-7 text-slate-600">Precision sharpening for clean edges, control, and consistency on the ice.</p>
+    </div>
 
+    <div class="glass rounded-[1.8rem] p-7 shine">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-semibold text-slate-900">Boot Fitting</h3>
+          <p class="mt-1 text-sm text-slate-500">1 hour</p>
+        </div>
+        <span class="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white">$50</span>
+      </div>
+      <p class="mt-5 text-sm leading-7 text-slate-600">Professional fitting service, with the fee applied toward new boots.</p>
+    </div>
+
+    <div class="glass rounded-[1.8rem] p-7 shine">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-semibold text-slate-900">Skate Services</h3>
+          <p class="mt-1 text-sm text-slate-500">30 minutes</p>
+        </div>
+        <span class="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white">$30</span>
+      </div>
+      <p class="mt-5 text-sm leading-7 text-slate-600">Punching, additional screws, and other adjustments to improve comfort and setup.</p>
+    </div>
+
+    <div class="glass rounded-[1.8rem] p-7 shine">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-semibold text-slate-900">Stretching</h3>
+          <p class="mt-1 text-sm text-slate-500">30 minutes</p>
+        </div>
+        <span class="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white">$30</span>
+      </div>
+      <p class="mt-5 text-sm leading-7 text-slate-600">Targeted boot stretching to relieve pressure points and improve comfort.</p>
+    </div>
+
+    <div class="glass rounded-[1.8rem] p-7 shine">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-semibold text-slate-900">Blade Mounting</h3>
+          <p class="mt-1 text-sm text-slate-500">30 minutes</p>
+        </div>
+        <span class="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white">$30</span>
+      </div>
+      <p class="mt-5 text-sm leading-7 text-slate-600">Blade mounting focused on alignment, balance, and a secure setup.</p>
+    </div>
+
+    <div class="glass rounded-[1.8rem] p-7 shine">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-semibold text-slate-900">Custom Insoles + Gait Analysis</h3>
+          <p class="mt-1 text-sm text-slate-500">1 hour</p>
+        </div>
+        <span class="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white">$350</span>
+      </div>
+      <p class="mt-5 text-sm leading-7 text-slate-600">SK8INSOLL custom insoles with gait analysis to improve support, alignment, and comfort.</p>
+    </div>
   </div>
-</section><!-- WHY --><section class="max-w-4xl mx-auto px-6 py-16 text-center">
-  <h2 class="text-3xl font-semibold">Why IceLink?</h2>
-  <p class="mt-6 text-gray-600 leading-relaxed">
-    IceLink focuses on high-quality, consistent skate services for figure skaters who care about performance. Every detail — from sharpening to alignment — is done with precision so your skates feel right every time you step on the ice.
-  </p>
-</section><!-- SERVICES --><section class="max-w-5xl mx-auto px-6 py-16">
-  <h2 class="text-3xl font-semibold text-center mb-12">Services</h2> <div class="grid md:grid-cols-2 gap-6"><div class="bg-white p-6 rounded-xl shadow">
-  <h3 class="text-lg font-semibold">Sharpening</h3>
-  <p class="text-sm text-gray-500">30 minutes</p>
-  <p class="mt-2">Precision sharpening for clean edges and control</p>
-  <p class="mt-4 font-semibold">$30</p>
 </div>
 
-<div class="bg-white p-6 rounded-xl shadow">
-  <h3 class="text-lg font-semibold">Boot Fitting</h3>
-  <p class="text-sm text-gray-500">1 hour</p>
-  <p class="mt-2">Fitting applied toward new boots</p>
-  <p class="mt-4 font-semibold">$50</p>
-</div>
-
-<div class="bg-white p-6 rounded-xl shadow">
-  <h3 class="text-lg font-semibold">Skate Services</h3>
-  <p class="text-sm text-gray-500">30 minutes</p>
-  <p class="mt-2">Punching, screws, and adjustments</p>
-  <p class="mt-4 font-semibold">$30</p>
-</div>
-
-<div class="bg-white p-6 rounded-xl shadow">
-  <h3 class="text-lg font-semibold">Stretching</h3>
-  <p class="text-sm text-gray-500">30 minutes</p>
-  <p class="mt-2">Relieves pressure points for better comfort</p>
-  <p class="mt-4 font-semibold">$30</p>
-</div>
-
-<div class="bg-white p-6 rounded-xl shadow">
-  <h3 class="text-lg font-semibold">Blade Mounting</h3>
-  <p class="text-sm text-gray-500">30 minutes</p>
-  <p class="mt-2">Balanced and secure blade setup</p>
-  <p class="mt-4 font-semibold">$30</p>
-</div>
-
-<div class="bg-white p-6 rounded-xl shadow">
-  <h3 class="text-lg font-semibold">Custom Insoles + Gait Analysis</h3>
-  <p class="text-sm text-gray-500">1 hour</p>
-  <p class="mt-2">Improves alignment and support</p>
-  <p class="mt-4 font-semibold">$350</p>
-</div>
-
+  </section> <!-- Process --> <section class="mx-auto max-w-6xl px-6 py-20 md:py-24">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.28em] text-sky-700">How It Works</p>
+      <h2 class="mt-3 text-3xl font-semibold tracking-tight text-slate-900 md:text-5xl">A simple path from booking to better performance.</h2>
+    </div><div class="mt-12 grid gap-6 md:grid-cols-3">
+  <div class="glass rounded-[1.8rem] p-8 shine">
+    <div class="flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">1</div>
+    <h3 class="mt-5 text-lg font-semibold text-slate-900">Choose your service</h3>
+    <p class="mt-3 text-sm leading-7 text-slate-600">Pick the appointment that matches what your skates or boots need right now.</p>
   </div>
-</section><!-- HOW IT WORKS --><section class="bg-white py-16 text-center">
-  <h2 class="text-3xl font-semibold">How It Works</h2>
-  <div class="mt-6 text-gray-600 space-y-2">
-    <p>1. Choose your service</p>
-    <p>2. Book online</p>
-    <p>3. Get your skates back ready to perform</p>
+  <div class="glass rounded-[1.8rem] p-8 shine">
+    <div class="flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">2</div>
+    <h3 class="mt-5 text-lg font-semibold text-slate-900">Book online</h3>
+    <p class="mt-3 text-sm leading-7 text-slate-600">Reserve your appointment quickly through the current scheduling system.</p>
   </div>
-</section><!-- CTA --><section class="text-center py-20">
-  <h2 class="text-3xl font-semibold">Ready to get your skates dialed in?</h2><a href="https://app.acuityscheduling.com/schedule/72def04b"
-class="inline-block mt-6 px-6 py-3 bg-black text-white rounded-full text-sm hover:bg-gray-800"> Book Now </a>
+  <div class="glass rounded-[1.8rem] p-8 shine">
+    <div class="flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">3</div>
+    <h3 class="mt-5 text-lg font-semibold text-slate-900">Get back on the ice ready</h3>
+    <p class="mt-3 text-sm leading-7 text-slate-600">Leave with equipment that feels dialed in, secure, and competition-ready.</p>
+  </div>
+</div>
 
-</section></body>
+  </section> <!-- CTA --> <section class="px-6 pb-20 md:pb-24">
+    <div class="mx-auto max-w-5xl overflow-hidden rounded-[2.4rem] bg-[linear-gradient(135deg,#0f172a,#1e3a5f)] px-8 py-14 text-center text-white shadow-[0_24px_70px_rgba(15,23,42,0.18)] md:px-12">
+      <p class="text-xs font-semibold uppercase tracking-[0.28em] text-sky-200">Book Now</p>
+      <h2 class="mt-4 text-3xl font-semibold tracking-tight md:text-4xl">Ready to get your skates dialed in?</h2>
+      <p class="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-300">
+        Elevated presentation, clear services, and an easy booking path — all in one place.
+      </p>
+      <a href="https://app.acuityscheduling.com/schedule/72def04b" class="mt-8 inline-block rounded-full bg-white px-7 py-3 text-sm font-semibold text-slate-900 transition hover:bg-sky-50">Book Appointment</a>
+    </div>
+  </section></body>
 </html>
